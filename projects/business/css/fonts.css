@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url('../fonts/Lato/Lato-Regular.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato-Regular';
+  src:  url('../fonts/Lato/Lato-Regular.woff') format('woff'),
+        url('../fonts/Lato/Lato-Regular.ttf')  format('truetype'), 
+        url('../fonts/Lato/Lato-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'GothamBlack';
+  src: url('../fonts/Gotham-Black/GothamBlack.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamBlack';
+  src:  url('../fonts/Gotham-Black/GothamBlack.woff') format('woff'), 
+  		url('../fonts/Gotham-Black/GothamBlack.ttf')  format('truetype'), 
+  		url('../fonts/Gotham-Black/GothamBlack.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+

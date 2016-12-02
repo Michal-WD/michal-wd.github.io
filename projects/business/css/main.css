@@ -1,0 +1,554 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Lato-Regular', 'Times New Roman', Times, serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'GothamBlack';
+	text-transform: uppercase;
+}
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.nav {
+	display: none;
+}
+
+.header-menu {
+	text-transform: uppercase;
+	width: 80%;
+	margin: 0 auto 80px;
+	min-height: 1px;
+}
+
+.logo {
+	float: left;
+	margin-top: 15px;
+}
+
+
+.menu {
+	float: right;
+	margin-top: 30px;
+}
+
+.menu li {
+	display: inline;
+	margin-right: 5px;
+}
+
+.menu li a {
+	font-size: 0.9em;
+	color: #000;
+	text-decoration: none;
+	padding: 8px 13px;
+}
+
+.menu li a:hover {
+	color: #fff;
+	background: orange;
+	transition: 0.3s all;
+}
+
+.order {
+	background: #709dca;
+	height: 600px;
+	position: relative;
+}
+
+.order-desc {
+	text-align: center;
+	color: #fff;
+	padding-top: 70px;
+}
+
+.order-desc p {
+	font-size: 18px;
+}
+
+.order-form {
+	max-width: 1280px;
+	display: table;
+	margin: 40px auto;
+}
+
+.input-group {
+	width: 24%;
+	float: left;
+	margin-right: 20px;
+}
+
+.input-group-addon {
+	background: #fff;
+	border-right: none;
+}
+
+.input-group input {
+	height: 50px;
+	border-left: none;
+}
+
+.input-group input:focus {
+	box-shadow: none;
+	border-color: #ccc; 
+}
+
+.request-btn {
+	padding-top: 15px;
+	display: inline-block;
+}
+
+.request-btn a {
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+	padding: 17px 30px;
+	background: orange;
+	border-radius: 4px;
+	font-size: 0.9em;
+}
+
+.laptop {
+	text-align: center;
+	margin-top: 80px;
+	position: relative;
+}
+
+.owl-carousel {
+	width: 446px;
+	position: absolute;
+	top: 17px;	
+	left: 212px;
+}
+
+#owl-demo .item img {
+	height: 250px;
+    display: block;
+    width: 100%;
+}
+
+.owl-theme .owl-controls .owl-page span {
+	background: #fff;
+	border: 1px solid #1ca8dd;
+	margin-top: 90px;
+	width: 15px;
+	height: 15px;
+}
+
+.owl-buttons {
+	display: none;
+}
+
+/* ==========================================================================
+   Services
+   ========================================================================== */
+
+.services {
+	margin-top: 200px;
+}
+
+.tittle {
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.tittle h2 {
+	margin-bottom: 0;
+}
+
+.tittle p {
+	text-transform: uppercase;
+}
+
+.service-blocks {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.service-icon {
+	padding-top: 10px;
+	margin-right: 40px;
+	float: left;
+	height: 150px;
+	width: 80px;
+	text-align: right;
+}
+
+.service-icon i {
+	font-size: 50px;
+	margin: 0 auto;
+}
+
+.service-icon .fa-clock-o {
+	padding-right: 10px;
+}
+
+.service-info p {
+	width: 90%;
+}
+
+/* ==========================================================================
+   About
+   ========================================================================== */
+
+.about-block, .about-image {
+	height: 500px;
+	margin-top: 100px;
+}
+
+.about-image {
+	padding: 0;
+}
+
+.about-image img {
+	width: 100%;
+	height: 500px;
+}
+
+.about-block {
+	color: #fff;
+	background: #ffc155;
+	padding: 120px 0 0 80px;
+}
+
+.about-block p {
+	width: 80%;
+	margin-bottom: 30px;
+}
+
+.about-block a {
+	color: #fff;
+	padding: 10px 20px;
+	text-decoration: none;
+	border: 1px solid #fff;
+}
+
+/* ==========================================================================
+   Price
+   ========================================================================== */
+
+.price {
+	float: left;
+	text-align: center;
+	width: 100%;
+	padding: 100px 100px;
+	background: #e7edf3;
+}
+
+.price-text h3 {
+	margin-bottom: 0;
+}
+
+.prices {
+	position: relative;
+	margin: 80px 0 0 100px;
+}
+
+.plan {
+	background: #fff;
+	padding: 40px 0;
+	width: 30%;
+}
+
+.plan span {
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #818b95;
+}
+
+.usd i {
+	color: #ffbb42;
+	vertical-align: top;
+	padding-top: 15px;
+	font-size: 30px;
+}
+
+.usd span {
+	color: #ffbb42;
+	font-size: 55px;
+	font-weight: bold;
+}
+
+.usd p {
+	text-transform: uppercase;
+	margin-top: -10px;
+	margin-bottom: 35px;
+}
+
+.plan-list {
+	width: 80%;
+	margin: 0 auto 40px;
+}
+
+.plan-list li {
+	list-style: none;
+	text-transform: uppercase;
+	border-top: 1px solid #e2e9f0;
+	padding: 5px 0;
+	color: #b5bbc1;
+}
+
+.start a {
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 20px;
+	background: #ffc155;
+	border-radius: 2px;	
+	text-transform: uppercase;
+}
+
+.start:hover {
+	transition: 0.5s;
+	transform: scale(1.1);
+}
+
+.premium {
+	padding: 70px 0;
+	background: #709dca;
+	margin-top: -30px;
+	border-radius: 4px;
+	width: 28%;
+}
+
+.premium span, .premium i, .premium p, .premium ul li {
+	color: #fff;
+}
+
+/* ==========================================================================
+   How It Works
+   ========================================================================== */
+
+.how-it-works {
+	float: left;
+	text-align: center;
+	width: 100%;
+	padding: 100px 100px;
+}
+
+.scheme {
+	margin: 40px 0;
+}
+
+.scheme img {
+	height: auto;
+	width: 91%;
+}
+
+.step {
+	margin-bottom: 50px;
+}
+
+.step span {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.how-it-works .start:hover {
+	transform: none;
+}
+
+/* ==========================================================================
+   Clients
+   ========================================================================== */
+
+.clients {
+	padding: 100px;
+	float: left;
+	text-align: center;
+	background: #ffc155;
+}
+
+.clients-info {
+	margin-top: 40px;
+	padding-left: 50px;
+}
+
+.avatar {
+	float: left;
+	margin-right: 10px;
+}
+
+.avatar img {
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+}
+
+.client {
+	background: #fff;
+	padding: 30px 20px 30px;
+	margin: 0 50px 30px 0;
+	width: 44%;
+}
+
+.client:nth-child(even) {
+	margin-right: 0;
+}
+
+.client blockquote {
+	border: none;
+	position: relative;
+	font-size: 1.1em;
+	margin-left: 20px;
+}
+
+.client blockquote:before {
+	content: "“";
+	margin-right: 5px;
+}
+
+.client blockquote:after {
+	content: "”";
+	margin-left: 5px;
+}
+
+.client p {
+	text-transform: uppercase;
+	margin-left: 60px;
+}
+
+/* ==========================================================================
+   Newsletter
+   ========================================================================== */
+
+.newsletter {
+	float: left;
+	text-align: center;
+	padding: 100px;
+	background: url('../img/footer-bg.gif') no-repeat 40% 100%;
+}
+
+.newsletter .price-text {
+	margin-bottom: 15px;
+}
+
+.news-form {
+	width: 75%;
+	margin: 0 auto;
+}
+
+.newsletter .input-group {
+	width: 33%;
+}
+
+.newsletter .request-btn {
+	float: left;
+}
+
+.newsletter .request-btn a {
+	padding: 17px 50px;
+}
+
+.data-text {
+	position: relative;
+	margin: 200px auto 30px;
+	color: #aeb7ba;
+	border-radius: 50%;
+	background: #394b50;
+	width: 280px;
+	height: 280px;
+	padding-top: 50px;
+}	
+
+.data-text p {
+	margin-bottom: 5px;
+}
+
+.data-text p:first-child {
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 15px;
+}
+
+.data-text::after {
+	content: "";
+	border-top: 20px solid #394b50;
+	border-right: 12px solid transparent;
+	border-left: 12px solid transparent;;
+	position: absolute;
+	bottom: 0;	
+	left: 130px;
+	top: 275px;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.footer {
+	width: 100%;
+	float: left;
+	padding: 50px 0;
+	text-align: center;
+	margin-top: 50px;
+	position: relative;
+}
+
+.footer::before {
+	content: "";
+	position: absolute;
+	width: 80%;
+	height: 1px;
+	border: 1px solid #e3e7ec;
+	left: 10%;
+	top: 0;
+}
+
+.footer ul li {
+	display: inline;
+	text-transform: uppercase;
+	margin-right: 30px;
+	font-size: 0.8em;
+}
+
+.footer ul li a {
+	color: #000;
+	text-decoration: none;
+}
+
+.footer ul li a:hover {
+	color: #aeb7ba;
+}
+
+.footer-phone i, .footer-phone p {
+	font-size: 1.3em;
+	display: inline;
+	font-weight: bold;
+}
+
+.footer-phone i {
+	margin-right: 10px;
+}
+
+.networks {
+	padding-left: 30px;
+	margin-top: 10px;
+}
+
+.networks a {
+	margin-right: 15px;
+	font-size: 1.1em;
+}
+
+.networks a:hover {
+	color: #ffc155;
+}
+
+.copy {
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 10px 0;
+	background: #709dca;
+	color: #fff;
+}
+
+.copy p {
+	margin-bottom: 0;
+}

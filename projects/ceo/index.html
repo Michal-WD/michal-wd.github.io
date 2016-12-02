@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Portfolio</title>
+	<script src="js/jquery-3.1.1.js"></script>
+	<script src="css/owl-carousel/owl.carousel.js"></script>
+	<script src="js/lightGallery/src/js/lightgallery.js"></script>
+	<script src="js/scrypt.js"></script>
+	<link rel="stylesheet" href="css/owl-carousel/owl.carousel.css">
+	<link rel="stylesheet" href="css/owl-carousel/owl.theme.css">
+	<link rel="stylesheet" href="js/lightGallery/src/css/lightgallery.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/fonts.css">
+</head>
+<body>
+	<header>
+		<div class="header-menu">
+			<div class="hmenu-block center clearfix">
+				<h3>Mister<span>Design</span>*</h3>
+				<ul class="hmenu-list">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">Request a quote</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<div class="main-content">
+		<div class="content clearfix center">
+			<h1>websites that rocks.</h1>
+			<div class="mc-desc"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure provident expedita officia quae consectetur pariatur molestias, id ipsa architecto reiciendis incidunt, minus sunt necessitatibus eaque impedit voluptatem assumenda blanditiis error dolorem! Nobis consequatur ab numquam ratione distinctio quas quia aliquam! Quibusdam, nobis? Sapiente voluptatibus repellat eum adipisci omnis vel. Officiis laboriosam, blanditiis quos, voluptatum ut natus hic rem, veritatis quisquam dolore repudiandae soluta? Perspiciatis harum distinctio, error dolore commodi vel facere tempore numquam, sequi ullam.</p></div>
+		<div class="mc-desc-preview" id="lightgallery">
+			<a href="img/desc-preview.png">
+      			<img src="img/desc-preview.png" />
+  			</a>
+		</div> 
+			<div class="slides">
+				<div id="owl-demo">
+					  <div class="item"><a href="#"><img src="img/slide1.png" alt="img1"></a></div>
+					  <div class="item"><a href="#"><img src="img/slide2.png" alt="img2"></a></div>
+					  <div class="item"><a href="#"><img src="img/slide3.png" alt="img3"></a></div>
+					  <div class="item"><a href="#"><img src="img/slide1.png" alt="img1"></a></div>
+					  <div class="item"><a href="#"><img src="img/slide2.png" alt="img2"></a></div>
+					  <div class="item"><a href="#"><img src="img/slide3.png" alt="img3"></a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="f-content center clearfix">
+			<div class="f-form">
+				<span>REQUEST A QUOTE NOW, GET IT IN 30 MINUTES</span>
+				<form action="" id="messageForm">
+					<ul class="labels-list">
+						<li><label for="user_name">Your name</label></li>
+						<li><label for="project">Project</label></li>
+						<li><label for="budget">Budget</label></li>
+						<li><label for="delay">Delay</label></li>
+						<li><label for="tell_us">Tell us more</label></li>
+						<li><button type="submit" class="send_btn">Send!</button></li>
+					</ul>
+					<ul class="input-list">
+						<li><input type="text" name="user_name" minlength="2"></li>
+						<li><input type="text" name="project"></li>				
+						<li><input type="text" name="budget"></li>				
+						<li><input type="text" name="delay"></li>				
+						<li><textarea name="tell_us" rows="5"></textarea></li>
+					</ul>
+				</form>
+			</div>
+			<div class="users-recalls">
+				<span>WHAT CLIENTS ARE SAYING</span>
+				<blockquote>
+					I hate waiting, but I don’t want
+					bad work either. This is for sure
+					the reason why I love 
+					MisterDesign.com so much.
+					They work fast, with no 
+					compromise over quality.
+				</blockquote>
+				<p>John Furlong - HybridCorp - CEO</p>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		$(document).ready(function() {
+ 
+  		$("#owl-demo").owlCarousel({
+ 
+      		//autoPlay: 3000, //Set AutoPlay to 3 seconds
+ 
+     		items : 3,
+      		itemsDesktop : [1199,3],
+      		itemsDesktopSmall : [979,3],
+      		navigation: true,
+      		pagination: false
+ 
+  		});
+ 
+		});
+	</script>
+	<script type="text/javascript">
+	    $(document).ready(function() {
+	        $("#lightgallery").lightGallery(); 
+	    });
+	</script>
+</body>
+</html>

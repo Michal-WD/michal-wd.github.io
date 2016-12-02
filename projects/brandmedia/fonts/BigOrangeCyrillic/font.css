@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'BigOrangeCyrillic';
+  src: url('BigOrangeCyrillic.eot');
+  src: url('BigOrangeCyrillic.woff2') format('woff2'),
+       url('BigOrangeCyrillic.woff') format('woff'),
+       url('BigOrangeCyrillic.ttf') format('truetype'),
+       url('BigOrangeCyrillic.svg#BigOrangeCyrillic') format('svg'),
+       url('BigOrangeCyrillic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

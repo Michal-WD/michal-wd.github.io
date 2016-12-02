@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Michal-WD</title>
+	<script src="js/jquery-3.1.1.js"></script>
+	<script src="js/slick/slick/slick.js"></script>
+	<script src="js/scrypt.js"></script>
+	<link rel="stylesheet" href="js/slick/slick/slick.css">
+	<link rel="stylesheet" href="js/slick/slick/slick-theme.css">
+	<link href="css/fonts/font-awesome-4.6.3/css/font-awesome.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div id="header" class="clearfix">
+		<div class="animate-circle">
+			<img src="img/settings.png" alt="circle" class="circle-img">
+		</div>
+		<div class="prompt">
+			<p>Click cogwheel to open menu</p>
+		</div>
+		<div class="header-menu" style="display: none;">
+			<ul>
+				<li><a href="#name">About me</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contacts">Contacts</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="lang">
+		<a href="index.html"><img src="img/ru.png" alt="ru"></a>
+		<a href="index-pl.html"><img src="img/pl.png" alt="pl"></a>
+		<a href="index-eng.html"><img src="img/eng.png" alt="eng"></a>
+	</div>
+	<div class="content clearfix width">
+		<div class="greeting">
+			<h1>Welcome on my page!</h1>
+			<img src="img/scroll.png" alt="scroll-down">
+		</div>
+		<div class="abb" id="name">
+			<span>About me</span>
+			<div class="about-blocks">
+				<div class="about-me">
+					<span>Who am I?</span>
+					<p>My name is Michail Konstantinov and I am 23 years old.<br>
+					   It am engineering student at the moment and have calm and serious character.<br><br>
+					   Strengths: &nbsp; aspiration to knowledge and perseverance.<br>
+					   Weaknesses: &nbsp; weak fantasy and too good appetite.
+					</p>
+				</div>
+				<div class="about-web">
+					<span>About specialty</span>
+					<p>Recently I  am interested in web development and learn by himself. For a few months i had time for learning basics of web development and more complex things. Also i have practiced in the creation of web-pages for my portfolio.</p>
+				</div>
+				<div class="about-skills">
+					<span>Skills</span>
+					<div class="skills">
+						<div class="html">
+							<span>html</span>
+							<div class="html-scale">
+								<div class="html-filling"></div>
+							</div>
+						</div>
+						<div class="css">
+							<span>css</span>
+							<div class="css-scale">
+								<div class="css-filling"></div>
+							</div>
+						</div>
+						<div class="js">
+							<span>js</span>
+							<div class="js-scale">
+								<div class="js-filling"></div>
+							</div>
+						</div>
+						<div class="ps">
+							<span>ps</span>
+							<div class="ps-scale">
+								<div class="ps-filling"></div>
+							</div>
+						</div>
+						<div class="plugins">
+							<span>Plugins</span>
+							<div class="plug-scale">
+								<div class="plug-filling"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="medium-block">
+			<div class="mb-span">
+				br<span>/</span>
+			</div>
+		</div>
+		<div class="portfolio-slider" id="portfolio">
+			<span>My modest portfolio</span>
+			<div class="portfolio">
+				<div class="p-block">
+					<a href="projects/brandmedia/index.html" target="_blank"><img src="img/sm-img1.jpg" alt="brandmedia"></a>
+				</div>
+				<div class="p-block">
+					<a href="projects/business/index.html" target="_blank"><img src="img/sm-img2.jpg" alt="business"></a>
+				</div>
+				<div class="p-block">
+					<a href="projects/ceo/index.html" target="_blank"><img src="img/sm-img3.jpg" alt="brandmedia"></a>
+				</div>
+				<div class="p-block">
+					<a href="projects/fly-shop/index.html" target="_blank"><img src="img/sm-img4.jpg" alt="brandmedia"></a>
+				</div>
+				<div class="p-block">
+					<a href="projects/news/index.html" target="_blank"><img src="img/sm-img5.jpg" alt="brandmedia"></a>
+				</div>
+				<div class="p-block">
+					<a href="projects/shop/index.html" target="_blank"><img src="img/sm-img6.jpg" alt="brandmedia"></a>
+				</div>
+				<div class="p-block">
+					<a href="projects/wooder/index.html" target="_blank"><img src="img/sm-img7.jpg" alt="brandmedia"></a>
+				</div>
+			</div>
+			<p>All sites are adaptive and change their width (sometimes position of elements) depending on width of the device display from which this site is viewed.</p>
+		</div>
+		<div class="contact-block">
+			<div class="contacts" id="contacts">
+				<div class="left-line"></div>
+				<div class="right-line"></div>
+				<div class="c-name">
+					<p>Contacts</p>
+				</div>
+				<div class="links">
+					<div class="fb-link"><a href="https://www.facebook.com/mihail.konstantinov.5074" target="_blank"><i class="fa fa-facebook"></i></a></div>
+					<div class="vk-link"><a href="https://vk.com/fanatos" target="_blank"><i class="fa fa-vk"></i></a></div>
+					<div class="skype">
+						<i class="fa fa-skype"></i>
+						<span>Unnflue</span>
+					</div>
+					<div class="mail">
+						<i class="fa fa-envelope"></i>
+						<span>hudebyss@gmail.com</span>
+					</div>
+				</div>	
+				<div class="by">
+					<span>Michal-WD &copy; 2016</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		$(document).ready(function(){
+		  $('.about-blocks').slick({
+		    dots: true,
+		    draggable: false,
+		  });
+		  $('.portfolio').slick({
+		    dots: true,
+		    slidesToShow: 2
+		  });
+		});
+	</script>
+</body>
+</html>

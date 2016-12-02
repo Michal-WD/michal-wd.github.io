@@ -1,0 +1,869 @@
+@media (min-width: 993px) and (max-width: 1279px) {
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.slide-text {
+	width: 28%;
+	height: 130px;
+	font-size: 1.5em;
+	top: 55%;
+}
+
+#owl-demo .item {
+	height: 380px;
+}
+
+.header-block {
+	height: 100px;
+}
+
+.logo {
+	font-size: 30px;
+}
+
+.menu-up {
+	width: 80%;
+}
+
+.bookmark {
+	width: 15px;
+	margin-right: -15px;
+	margin-top: 16px;
+}
+
+.menu-up ul {
+	padding-left: 15px;
+}
+
+.input-group {
+	margin-right: 15px;
+}
+
+.menu-down ul li {
+	font-size: 1em;
+	margin-right: 40px;
+}
+
+/* ==========================================================================
+   Main content
+   ========================================================================== */
+
+.offer span {
+	font-size: 32px;
+}
+
+.offer a {
+	right: 5.5%;
+	padding: 8px 40px 8px 8px;
+	font-size: 1em;
+}
+
+.more {
+	margin-left: 80%;
+}
+
+.read-more {
+	margin-left: 70%;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.ps {
+	width: 75%;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.slide-text {
+	width: 30%;
+	height: 110px;
+	font-size: 1.3em;
+	top: 60%;
+}
+
+#owl-demo .item {
+	height: 350px;
+}
+
+.header-block {
+	height: 100px;
+}
+
+.logo {
+	margin-top: 4%;
+	font-size: 26px;
+}
+
+.logo img {
+	width: 50px;
+	height: 50px;
+}
+
+.menu-up {
+	width: 90%;
+}
+
+.menu-up ul li {
+	font-size: 0.8em;
+	padding-right: 6px;
+	margin-right: 6px;
+	border-right: 1px solid #fff;
+}
+
+.bookmark {
+	width: 10px;
+	margin-right: -10px;
+	margin-top: 10px;
+}
+
+.menu-up ul {
+	padding-left: 10px;
+}
+
+.input-group {
+	margin-right: 15px;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+	font-size: 0.8em;
+}
+
+.menu-down ul li {
+	font-size: 0.8em;
+	margin-right: 20px;
+}
+
+.menu-down ul li:last-child {
+	margin-right: 10px;
+}
+
+/* ==========================================================================
+   Main content
+   ========================================================================== */
+
+.offer div {
+	padding-left: 0;
+}
+
+.stories {
+	padding-left: 15px;
+}
+
+.offer span {
+	font-size: 26px;
+}
+
+.offer a {
+	right: 8%;
+	width: 92%;
+	padding: 8px 0 8px 10px;
+	font-size: 0.8em;
+}
+
+.offer a i {
+	font-size: 1.5em;
+}
+
+.more {
+	margin-left: 80%;
+}
+
+.read-more {
+	margin-left: 70%;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.footer-block {
+	margin-top: 0;
+}
+
+.newsletter a {
+	padding: 7px 16%;
+}
+
+.service-times h4 {
+	padding-bottom: 10%;
+}
+
+.networks a {
+	padding: 8px;
+}
+
+.networks a i {
+	font-size: 1.2em;
+}
+
+.networks .fb {
+	padding: 8px 17px;
+}
+
+.networks .pp {
+	padding: 8px 9px;
+}
+
+.fa-facebook {
+	position: absolute;
+	top: 8px;
+	left: 11px;
+}
+
+.ps {
+	width: 75%;
+}
+
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.nav {
+	display: none;
+}
+
+.slide-text {
+	width: 35%;
+	height: 90px;
+	font-size: 1.2em;
+	top: 65%;
+	padding: 12px;
+}
+
+#owl-demo .item {
+	height: 350px;
+}
+
+.header-block {
+	height: 90px;
+}
+
+.logo {
+	margin-top: 6%;
+	font-size: 16px;
+	width: 33.3%;
+	float: left;
+}
+
+.logo img {
+	width: 32px;
+	height: 32px;
+}
+
+.header-menu {
+	width: 66.6%;
+	float: right;
+	position: relative;
+}
+
+.menu-up {
+	width: 100%;
+}
+
+.menu-up ul li {
+	font-size: 0.8em;
+	padding-right: 6px;
+	margin-right: 6px;
+	border-right: 1px solid #fff;
+}
+
+.bookmark {
+	width: 9px;
+	margin-right: -68.6%;
+	margin-top: 10px;
+}
+
+.menu-up ul {
+	padding-left: 10px;
+}
+
+.input-group {
+	margin-right: 10px;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+	font-size: 0.8em;
+}
+
+.menu-down ul li {
+	font-size: 0.7em;
+	margin-right: 15px;
+}
+
+.menu-down ul li:last-child {
+	margin-right: 10px;
+}
+
+/* ==========================================================================
+   Main content
+   ========================================================================== */
+
+.main-content {
+	padding: 20px 0 50px;
+}
+
+.offer {
+	width: 100%;
+	position: relative;
+}
+
+.offer div {
+	width: 60%;
+	padding-left: 0;
+	margin-left: 20%;
+}
+
+.stories {
+	padding-left: 15px;
+}
+
+.offer span {
+	top: 60%;
+	font-size: 30px;
+}
+
+.offer a {
+	width: 60%;
+	padding: 8px 0 8px 10px;
+	font-size: 0.9em;
+}
+
+.offer a i {
+	font-size: 1.5em;
+}
+
+.more {
+	margin-left: 80%;
+}
+
+.read-more {
+	margin-left: 70%;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.footer-block {
+	margin-top: 0;
+}
+
+.contact-block {
+	margin-left: 10%;
+}
+
+.newsletter a {
+	padding: 7px 16%;
+}
+
+.service-times h4 {
+	padding-bottom: 10%;
+}
+
+.networks div {
+	margin-bottom: 28px;
+}
+
+.facebook , .paypal {
+	margin-left: 10px;
+}
+
+.networks a {
+	padding: 12px;
+}
+
+.networks a i {
+	font-size: 1.2em;
+}
+
+.networks .fb {
+	padding: 12px 20px;
+}
+
+.networks .pp {
+	padding: 12px 14px;
+}
+
+.twitter a {
+	padding: 12px 13px;
+}
+
+.youtube a {
+	padding: 12px 13px;
+}
+
+.fa-facebook {
+	position: absolute;
+	top: 12px;
+	left: 15px;
+}
+
+.ps {
+	margin-left: 10%;
+	width: 80%;
+}
+
+}
+
+@media (min-width: 450px) and (max-width: 599px) {
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.nav {
+	display: block;
+}
+
+.menu-down {
+	display: none;
+}
+
+.slide-text {
+	width: 40%;
+	height: 80px;
+	font-size: 1em;
+	top: 65%;
+	padding: 12px;
+}
+
+#owl-demo .item {
+	height: 270px;
+}
+
+.header-block {
+	height: 98px;
+}
+
+.logo {
+	width: 100%;
+	margin-left: 5%;
+	font-size: 18px;
+}
+
+.logo img {
+	width: 32px;
+	height: 32px;
+}
+
+.header-menu {
+	padding-left: 0;
+}
+
+.menu-up {
+	margin-top: 15px;
+	width: 100%;
+	float: left;
+	margin-right: 0;
+}
+
+.menu-up ul li {
+	font-size: 0.8em;
+	padding-right: 6px;
+	margin-right: 6px;
+	border-right: 1px solid #fff;
+}
+
+.bookmark {
+	display: none;
+}
+
+.menu-up ul {
+	padding-left: 10px;
+}
+
+.input-group {
+	margin-right: 10px;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+	font-size: 0.8em;
+}
+
+.nav > .dropdown {
+	position: absolute;
+	float: right;
+	right: 0;
+	top: -40px;
+}
+
+.dropdown-menu {
+	min-width: 100px;
+}
+
+.dropdown-menu ul {
+	padding: 0;
+}
+
+.dropdown-menu li {
+	list-style: none;
+	padding: 5px 0;
+	border-bottom: 1px solid #668333;
+}
+
+.dropdown-menu li:last-child {
+	border: none;
+}
+
+.dropdown-menu li a {
+	text-decoration: none;
+	color: #668333;
+	padding-left: 25%;
+}
+
+/* ==========================================================================
+   Main content
+   ========================================================================== */
+
+.main-content {
+	padding: 20px 0 50px;
+}
+
+.offer {
+	width: 100%;
+	position: relative;
+}
+
+.offer div {
+	padding-left: 0;
+	margin-left: 20%;
+}
+
+.stories {
+	padding-left: 15px;
+}
+
+.offer span {
+	top: 60%;
+	font-size: 30px;
+}
+
+.offer a {
+	width: 60%;
+	padding: 8px 0 8px 10px;
+	font-size: 0.9em;
+}
+
+.offer a i {
+	font-size: 1.5em;
+}
+
+.more {
+	margin-left: 80%;
+}
+
+.read-more {
+	margin-left: 70%;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.footer-block {
+	margin-top: 0;
+}
+
+.contact-block {
+	margin-left: 20%;
+}
+
+.contact-block div {
+	width: 100%;
+}
+
+.newsletter a {
+	padding: 7px 16%;
+}
+
+.service-times h4 {
+	padding-bottom: 10%;
+}
+
+.networks div {
+	width: 40px;
+	display: inline-block;
+}
+
+.facebook , .paypal {
+	margin-left: 0;
+}
+
+.networks a {
+	padding: 12px;
+}
+
+.networks a i {
+	font-size: 1.2em;
+}
+
+.networks .fb {
+	padding: 12px 20px;
+}
+
+.networks .pp {
+	padding: 12px 14px;
+}
+
+.twitter a {
+	padding: 12px 13px;
+}
+
+.youtube a {
+	padding: 12px 13px;
+}
+
+.fa-facebook {
+	position: absolute;
+	top: 12px;
+	left: 15px;
+}
+
+.ps {
+	margin-left: 5%;
+	width: 80%;
+	font-size: 0.8em;
+}
+
+}
+
+@media (min-width: 320px) and (max-width: 449px) {
+	/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.nav {
+	display: block;
+}
+
+.menu-down {
+	display: none;
+}
+
+.slide-text {
+	width: 40%;
+	height: 80px;
+	font-size: 0.8em;
+	top: 65%;
+	padding: 12px;
+}
+
+#owl-demo .item {
+	height: 300px;
+}
+
+#owl-demo .item img {
+	height: 100%;
+}
+
+.header-block {
+	height: 98px;
+}
+
+.logo {
+	top: 4%;
+	width: 100%;
+	margin-left: 1%;
+	font-size: 18px;
+}
+
+.logo img {
+	width: 32px;
+	height: 32px;
+}
+
+.header-menu {
+	padding-left: 0;
+}
+
+.menu-up {
+	margin-top: 15px;
+	width: 100%;
+	float: left;
+	margin-right: 0;
+}
+
+.menu-up ul li {
+	font-size: 0.6em;
+	padding-right: 3px;
+	margin-right: 3px;
+	border-right: 1px solid #fff;
+}
+
+.bookmark {
+	display: none;
+}
+
+.menu-up ul {
+	padding-left: 10px;
+}
+
+.input-group {
+	width: 47%;
+	margin-right: 5px;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+	font-size: 0.6em;
+}
+
+.nav > .dropdown {
+	position: absolute;
+	float: right;
+	right: 0;
+	top: -33px;
+}
+
+.dropdown-menu {
+	min-width: 100px;
+}
+
+.dropdown-menu ul {
+	padding: 0;
+}
+
+.dropdown-menu li {
+	list-style: none;
+	padding: 5px 0;
+	border-bottom: 1px solid #668333;
+}
+
+.dropdown-menu li:last-child {
+	border: none;
+}
+
+.dropdown-menu li a {
+	text-decoration: none;
+	color: #668333;
+	padding-left: 25%;
+}
+
+/* ==========================================================================
+   Main content
+   ========================================================================== */
+
+.main-content {
+	padding: 20px 10px 50px 0;
+}
+
+.offer {
+	width: 100%;
+	position: relative;
+}
+
+.offer div {
+	padding-left: 0;
+	margin-left: 7%;
+}
+
+.stories {
+	padding-left: 15px;
+}
+
+.offer span {
+	top: 50%;
+	font-size: 30px;
+}
+
+.offer a {
+	right: 5.5%;
+	width: 65%;
+	padding: 8px 0 8px 10px;
+	font-size: 0.9em;
+}
+
+.offer a i {
+	font-size: 1.5em;
+}
+
+.more {
+	margin-left: 80%;
+}
+
+.read-more {
+	margin-left: 60%;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.footer-block {
+	margin-top: 0;
+}
+
+.contact-block {
+	margin-left: 10%;
+}
+
+.contact-block div {
+	width: 100%;
+}
+
+.newsletter a {
+	padding: 7px 16%;
+}
+
+.service-times h4 {
+	padding-bottom: 10%;
+}
+
+.networks div {
+	width: 40px;
+	display: inline-block;
+}
+
+.facebook , .paypal {
+	margin-left: 0;
+}
+
+.networks a {
+	padding: 12px;
+}
+
+.networks a i {
+	font-size: 1.2em;
+}
+
+.networks .fb {
+	padding: 12px 20px;
+}
+
+.networks .pp {
+	padding: 12px 14px;
+}
+
+.twitter a {
+	padding: 12px 13px;
+}
+
+.youtube a {
+	padding: 12px 13px;
+}
+
+.fa-facebook {
+	position: absolute;
+	top: 12px;
+	left: 15px;
+}
+
+.ps {
+	margin-left: 5%;
+	margin-bottom: 5%;
+	width: 80%;
+	font-size: 0.8em;
+}
+}

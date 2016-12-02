@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'GothamPro';
+  src: url('fonts/Gotham/GothamPro.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamPro';
+  src:  url('fonts/Gotham/GothamPro.otf')  format('opentype'),
+	     url('fonts/Gotham/GothamPro.woff') format('woff'), 
+	     url('fonts/Gotham/GothamPro.ttf')  format('truetype'), url('GothamPro.svg#GothamPro') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*------------------------------------------------*/
+
+@font-face {
+  font-family: 'Archive';
+  src: url('fonts/Archive/Archive.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Archive';
+  src:  url('fonts/Archive/Archive.otf')  format('opentype'),
+	     url('fonts/Archive/Archive.woff') format('woff'), 
+	     url('fonts/Archive/Archive.ttf')  format('truetype'), url('Archive.svg#Archive') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*------------------------------------------------*/
+
+@font-face {
+  font-family: 'Matias';
+  src: url('fonts/Matias/Matias.eot?#iefix') format('embedded-opentype'),  url('fonts/Matias/Matias.otf')  format('opentype'),
+	     url('fonts/Matias/Matias.woff') format('woff'), url('fonts/Matias/Matias.ttf')  format('truetype'), url('Matias.svg#Matias') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

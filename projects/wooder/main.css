@@ -1,0 +1,440 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	/* background: url("img/green-background.jpg") repeat-y; */
+	background: #000;
+	font-family: 'ProximaNova-Bold','Times New Roman', Times, serif;
+}
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.nav {
+	display: none;
+}
+
+.header {
+	background: url("img/wood_right.jpg") 50% 50% no-repeat;
+	max-width: 1200px;
+	height: 600px;
+	margin: 0 auto;
+	padding: 15px;
+	text-align: center;
+	position: relative;
+}
+
+.header ul {
+	margin: 0 auto;
+}
+
+.header ul li {
+	list-style-type: none;
+	color: #fff;
+	display: inline;
+	font-size: 0.8em;
+	margin-right: 50px;
+}
+
+.header ul li a {
+	text-decoration: none;
+	color: #fff;
+	opacity: 0.7;
+}
+
+.header ul li a:hover {
+	opacity: 1;
+}
+
+.header .logo {
+	font-size: 1.7em;
+	letter-spacing: 8px;
+	position: relative;
+}
+
+.logo::after {
+	content: "";
+	position: absolute;
+	border: 1px solid #bea67c;
+	width: 43px;
+	top: 13px;
+	left: 30px;
+}
+
+.logo::selection, .logo_center::selection {
+	background: none;
+}
+
+.logo::-webkit-selection, .logo_center::-webkit-selection {
+	background: none;
+}
+
+.logo::-moz-selection, .logo_center::-moz-selection {
+	background: none;
+}
+
+.header .logo_center {
+	color: #e8c88f;
+	font-size: 3.5em;
+	letter-spacing: 10px;
+	margin-top: 200px;
+}
+
+.learn_more {
+	width: 200px;
+	margin: 0 auto;
+}
+
+.learn_more a {
+	text-decoration: none;
+	color: #fff;
+	letter-spacing: 5px;
+	display: block;
+	border: 2px solid #fff;
+	font-size: 0.7em;
+	padding: 10px;
+}
+
+.learn_more a:hover {
+	background: #BDBDBD;
+	opacity: 0.9;
+	transition: 1.25s background;
+}
+
+.learn_more i {
+	font-size: 1.3em;
+	margin-left: 5px;
+}
+
+/* ==========================================================================
+   Main content
+   ========================================================================== */
+
+.main_content {
+	background: #fff;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-top: 50px;
+	min-height: 600px;
+	position: relative;
+}
+
+.furniture,.decor {
+	height: 250px;
+	margin: 0 auto 70px;
+	width: 70%;
+	position: relative;
+}
+
+.furniture img,.decor img {
+	width: 100%;
+	height: 270px;
+	box-shadow: 0 0 15px #666;
+}
+
+.furniture h2, .decor h2 {
+	margin-top: 60px;
+}
+
+.furniture h2, .furniture p, .main_link {
+	margin-left: 130px;
+}
+
+.furniture::before {
+	content: "";
+	border: 1px solid #000;
+	position: absolute;
+	width: 100px;
+	top: 75px;
+	left: 15px;	
+}
+
+.furniture::after {
+	content: "";
+	border: 2px solid #a9946e;
+	position: absolute;
+	width: 40px;
+	top: 111px;
+	left: 75px;	
+}
+
+.main_link {
+	color: #000;
+	letter-spacing: 2px;
+	display: block;
+	margin-top: 25px;
+}
+
+.main_link:hover {
+	text-decoration: none;
+	color: #BDBDBD;
+	transition: 0.75s color;
+}
+
+.main_link i {
+	font-size: 1em;
+	margin-left: 10px;
+	color: brown;
+}
+
+.furn_vert_line {
+	border: 2px solid #a9946e;
+	height: 40px;
+	width: 1px;
+	margin: 0 0 80px 210px;
+}
+
+.decor {
+	text-align: right;
+}
+
+.decor_desc {
+	padding-right: 50px;
+}
+
+.decor::before {
+	content: "";
+	border: 1px solid #000;
+	position: absolute;
+	width: 100px;
+	top: 75px;	
+	right: -75px;
+}
+
+.decor::after {
+	content: "";
+	border: 2px solid #a9946e;
+	position: absolute;
+	width: 40px;
+	top: 111px;	
+	right: -15px;
+}
+
+.decor_vert_line {
+	border: 2px solid #a9946e;
+	height: 40px;
+	width: 1px;
+	float: right;
+	margin: 0 210px 50px 0;
+}
+
+.videos {
+	margin: 200px auto 100px;
+	width: 80%;
+	text-align: center;
+}
+
+.videos h2 {
+	position: relative;
+	font-size: 2.8em;
+	margin-bottom: 40px;
+}
+
+.videos h2::after {
+	content: "";
+	position: absolute;
+	width: 50px;
+	border: 2px solid #a9946e;
+	top: 60px;
+	left: 450px;
+}
+
+.promo img {
+	width: 200px;
+	height: 200px;
+	border: 1px solid #e6e6e6;
+	border-radius: 50%;
+	margin: 40px 0 40px 0;
+	padding: 15px;
+	position: relative;
+}
+
+.promo span::before{
+	content: "";
+	position: absolute;
+	width: 35px;
+	border: 1px solid #a9946e;
+	top: -20px;
+	left: 35px;
+}
+
+.promo {
+	width: 25%;
+	display: inline-block;
+	margin-right: 50px;
+}
+
+.promo span {
+	position: relative;
+}
+
+/* ==========================================================================
+   Advice block
+   ========================================================================== */
+
+.block_advice {
+	max-width: 1200px;
+	height: 600px;
+	background: url('img/firewood.jpg') no-repeat;
+	margin: 0 auto;
+	padding-top: 80px;
+}
+
+.ba-content {
+	border: 1px solid #bea67c;
+	width: 80%;
+	height: 440px;
+	margin: 0 auto ;
+	padding: 100px 0 0 250px;
+	color: #fff;
+}
+
+.ba-content h2, .ba-content p {
+	width: 50%;
+	position: relative;
+}
+
+.ba-content h2 {
+	color: #f4d6a3;
+}
+
+.ba-content h2::before {
+	content: "";
+	border: 1px solid #fff;
+	position: absolute;
+	width: 100px;
+	top: 16px;
+	left: -120px;
+}
+
+.ba-content p::before {
+	content: "";
+	border: 2px solid #f4d6a3;
+	position: absolute;
+	width: 40px;
+	top: 8px;
+	left: -60px;	
+}
+
+.watch-video {
+	margin-top: 20px;
+	width: 30%;
+}
+
+.ba-content a {
+	display: block;
+	color: #fff;
+	letter-spacing: 2px;
+	border: 1px solid #fff;
+	text-decoration: none;
+	padding: 10px 0 10px 35px; 
+}
+
+.ba-content i {
+	margin-right: 15px;
+}
+
+.ba-content a:hover {
+	color: #BDBDBD;
+	border-color: #BDBDBD;
+	transition: 0.75s color, 0.75s border-color;
+}
+
+/* ==========================================================================
+   About block
+   ========================================================================== */
+
+.about-block {
+	padding: 110px 0 0 250px;
+	height: 450px;
+}
+
+.about-block img {
+	width: 400px;
+	height: 250px;
+	float: left;
+	box-shadow: 0 0 10px #666;
+}
+
+.about-info {
+	padding-left: 70px;
+	padding-top: 30px;
+}
+
+.about-info p, .about-info h2 {
+	width: 60%;
+}
+
+.about-info h2::before {
+	content: "";
+	border: 1px solid #000;
+	position: absolute;
+	width: 100px;
+	top: 63px;
+	left: -50px;	
+}
+
+.about-info p::after {
+	content: "";
+	border: 2px solid #a9946e;
+	position: absolute;
+	width: 40px;
+	top: 101px;
+	left: 11px;	
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.footer {
+	height: 50px;
+	background: url('img/firewood.jpg');
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-top: 8px;
+}
+
+.footer span, .footer p {
+	display: inline;
+}
+
+.footer span {
+	margin-left: 18%;
+}
+
+.footer p {
+	margin-left: 18%;
+	font-size: 1.7em;
+	letter-spacing: 8px;
+	color: #fff;
+	position: relative;
+}
+
+.footer p::after {
+	content: "";
+	position: absolute;
+	border: 1px solid #bea67c;
+	width: 43px;
+	top: 13px;
+	left: 30px;
+}
+
+.footer p::selection {
+	background: none;
+}
+
+.footer p::-webkit-selection {
+	background: none;
+}
+
+.footer p::-moz-selection {
+	background: none;
+}
+
+
+
+

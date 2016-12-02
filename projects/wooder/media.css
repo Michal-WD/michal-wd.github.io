@@ -1,0 +1,586 @@
+@media (min-width: 993px) and (max-width: 1279px) {
+	/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.nav {
+	display: none;
+}
+
+.header ul {
+	margin: 0 auto;
+}
+
+.learn_more {
+	width: 200px;
+	margin: 0 auto;
+}
+
+/* ==========================================================================
+   Main content
+   ========================================================================== */
+
+.videos h2::after {
+	left: 375px;
+}
+
+/* ==========================================================================
+   Advice block
+   ========================================================================== */
+
+.ba-content {
+	padding: 70px 0 0 250px;
+}
+
+.watch-video {
+	width: 35%;
+}
+
+.ba-content a {
+	padding: 10px 0 10px 20px; 
+}
+
+/* ==========================================================================
+   About block
+   ========================================================================== */
+
+.about-block {
+	padding: 110px 0 0 180px;
+}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.nav {
+	display: none;
+}
+
+.header ul {
+	margin-left: 29%;
+}
+
+.learn_more {
+	margin: 10px 0 0 32.5%;
+}
+
+/* ==========================================================================
+   Main content
+   ========================================================================== */
+
+.main_content {
+	padding-top: 20px;
+}
+
+.furniture img,.decor img {
+	margin-top: 25px;
+}
+
+.furniture {
+	margin-bottom: 200px;
+}
+
+.furniture::before {
+	top: 50px;
+}
+
+.furniture::after {
+	top: 115px;
+}
+
+.decor_desc {
+	padding-right: 140px;
+}
+
+.decor::before {
+	right: 17px;
+	top: 370px;	
+}
+
+.decor::after {
+	top: 405px;	
+	right: 77px;
+}
+
+.furn_vert_line {
+	display: none;
+}
+
+.decor_vert_line {
+	display: none;
+}
+
+.videos {
+	margin: 300px auto 100px;
+}
+
+.videos h2::after {
+	left: 290px;
+}
+
+.promo {
+	margin-right: 25px;
+}
+
+.promo img {
+	width: 150px;
+	height: 150px;
+}
+
+/* ==========================================================================
+   Advice block
+   ========================================================================== */
+
+.ba-content {
+	padding: 70px 0 0 200px;
+}
+
+.ba-content h2, .ba-content p {
+	width: 70%;
+}
+
+.watch-video {
+	width: 45%;
+}
+
+.ba-content a {
+	padding: 10px 0 10px 20px; 
+}
+
+/* ==========================================================================
+   About block
+   ========================================================================== */
+
+.about-block {
+	height: 480px;
+	padding: 50px 0 0 200px;
+}
+
+.about-block img {
+	margin-bottom: 20px;
+}
+
+.about-info {
+	padding-left: 120px;
+}
+
+.about-info h2::before {
+	top: 285px;
+	left: 0;	
+}
+
+.about-info p::after {
+	top: 320px;
+	left: 60px;	
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.footer span {
+	margin-left: 10%;
+	font-size: 0.9em;
+}
+
+
+.footer p {
+	margin-left: 18%;
+}
+
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.nav {
+	display: none;
+}
+
+.header ul {
+	margin-left: 5%;
+}
+
+.header ul li {
+	margin-right: 30px;
+}
+
+.learn_more {
+	margin: 10px 0 0 26.5%;
+}
+
+/* ==========================================================================
+   Main content
+   ========================================================================== */
+
+.main_content {
+	padding-top: 10px;
+}
+
+.furniture img,.decor img {
+	margin-top: 25px;
+}
+
+.furniture {
+	margin-bottom: 200px;
+}
+
+.furniture::before {
+	top: 50px;
+}
+
+.furniture::after {
+	top: 115px;
+}
+
+.decor_desc {
+	padding-right: 140px;
+}
+
+.decor::before {
+	right: 17px;
+	top: 370px;	
+}
+
+.decor::after {
+	top: 405px;	
+	right: 77px;
+}
+
+.furn_vert_line {
+	display: none;
+}
+
+.decor_vert_line {
+	display: none;
+}
+
+.videos {
+	margin: 300px auto 70px;
+}
+
+.videos h2::after {
+	left: 225px;
+}
+
+.promo {
+	width: 25%;
+	display: inline-block;
+	margin-right: 25px;
+}
+
+.promo img {
+	width: 120px;
+	height: 120px;
+}
+
+/* ==========================================================================
+   Advice block
+   ========================================================================== */
+
+.block_advice {
+	height: 520px;
+}
+
+.ba-content {
+	padding: 40px 0 0 100px;
+	height: 360px;
+}
+
+.ba-content h2 {
+	font-size: 1.9em;
+}
+
+.ba-content h2, .ba-content p {
+	width: 80%;
+}
+
+.ba-content h2::before {
+	display: none;
+}
+
+.ba-content p::before {
+	display: none;
+}
+
+.watch-video {
+	width: 50%;
+}
+
+.ba-content a {
+	padding: 10px 0 10px 20px; 
+}
+
+/* ==========================================================================
+   About block
+   ========================================================================== */
+
+.about-block {
+	height: 480px;
+	padding: 40px 0 0 100px;
+}
+
+.about-block img {
+	margin-bottom: 20px;
+}
+
+.about-info {
+	padding-left: 120px;
+}
+
+.about-info h2::before {
+	top: 285px;
+	left: 0;	
+}
+
+.about-info p::after {
+	top: 320px;
+	left: 60px;	
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.footer span {
+	margin-left: 7%;
+	font-size: 0.8em;
+}
+
+
+.footer p {
+	margin-left: 15%;
+}
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+.header {
+	height: 65px;
+}
+
+.header_nav {
+	display: none;
+}
+
+.nav {
+	display: block;
+}
+
+.nav > .dropdown > a:hover {
+	background: #333;
+}
+
+.nav > .dropdown > a:link {
+	background: #333;
+}
+
+.nav > .dropdown > .dropdown-menu > li {
+	margin: 0 !important;
+}
+
+.nav > .dropdown > .dropdown-menu > li > a {
+	background: #ddd;
+	color: #333;
+	border-bottom: 1px solid #000;
+}
+
+.nav > .dropdown > .dropdown-menu > li:last-child > a {
+	border-bottom: none;
+}
+
+.header ul {
+	margin-left: 0;
+}
+
+.header ul li {
+	margin-right: 30px;
+}
+
+.logo::after {
+	top: 15px;
+}
+
+.logo_center, .header > .learn_more {
+	display: none;
+}
+
+.learn_more {
+	margin: 10px 0 0 26.5%;
+}
+
+/* ==========================================================================
+   Main content
+   ========================================================================== */
+
+.main_content {
+	padding-top: 10px;
+}
+
+.furniture img,.decor img {
+	margin-top: 25px;
+	height: 150px;
+}
+
+.furniture {
+	margin-bottom: 100px;
+	width: 100%;
+	padding-left: 0;
+}
+
+.furniture h2, .furniture p, .furniture a {
+	margin-left: 20px;
+}
+
+.furniture::before {
+	display: none;
+}
+
+.furniture::after {
+	display: none;
+}
+
+.decor {
+	margin: 0;
+	text-align: left;
+}
+
+.decor_desc {
+	padding: 0;
+	margin-left: 40px;
+}
+
+.decor_desc h2 {
+	margin-top: 30px;
+}
+
+.decor img {
+	width: 290px;
+}
+
+.decor::before {
+	display: none;
+}
+
+.decor::after {
+	display: none;
+}
+
+.furn_vert_line {
+	display: none;
+}
+
+.decor_vert_line {
+	display: none;
+}
+
+.videos {
+	margin: 250px auto 70px;
+}
+
+.videos h2::after {
+	display: none;
+}
+
+.promo {
+	display: block;
+	width: 100%;
+	margin-right: 25px;
+}
+
+.promo img {
+	width: 120px;
+	height: 120px;
+}
+
+/* ==========================================================================
+   Advice block
+   ========================================================================== */
+
+.block_advice {
+	height: 360px;
+	padding-top: 20px;
+}
+
+.ba-content {
+	padding: 10px 0 0 20px;
+	height: 320px;
+}
+
+.ba-content h2 {
+	font-size: 1.5em;
+}
+
+.ba-content h2, .ba-content p {
+	width: 90%;
+}
+
+.ba-content h2::before {
+	display: none;
+}
+
+.ba-content p::before {
+	display: none;
+}
+
+.watch-video {
+	width: 80%;
+}
+
+.ba-content a {
+	padding: 10px 0 10px 20px; 
+}
+
+/* ==========================================================================
+   About block
+   ========================================================================== */
+
+.about-block {
+	height: 400px;
+	padding: 40px 0 0 20px;
+}
+
+.about-block img {
+	margin-bottom: 20px;
+	width: 290px;
+	height: 150px;
+}
+
+.about-info {
+	padding-left: 20px;
+}
+
+.about-info h2, .about-info p {
+	width: 100%;
+}
+
+.about-info h2::before {
+	display: none;	
+}
+
+.about-info p::after {
+	display: none;	
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.footer span {
+	margin-left: 5%;
+	font-size: 0.7em;
+}
+
+
+.footer p {
+	margin-left: 12%;
+}
+
+}

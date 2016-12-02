@@ -1,0 +1,431 @@
+@media (min-width: 768px) and (max-width: 992px) {
+	.center {
+		width: 730px;
+		margin: 0 auto;
+	}
+/* -------------------HEADER------------------------ */
+
+.hmenu-block > h3 {
+	margin-left: 15px;
+}
+
+.hmenu-block ul li a {
+	margin-left: 10px;
+	font-size: 16px;
+}
+/* -------------------CONTENT------------------------ */
+.content {
+	padding: 0 15px;
+	margin: 60px auto 50px;
+}
+
+	.content h1 {
+		font-size: 48px;
+		margin-bottom: 50px;
+		padding-left: 70px;	
+	}
+
+	.mc-desc {
+		width: 43%;
+	}
+
+		.mc-desc p {
+			font-size: 16px;
+			line-height: 18px;
+		}
+
+	.mc-desc-preview {
+		width: 56%;
+		padding-left: 15px;
+	}
+
+		.mc-desc-preview img {
+			width: 100%;
+			height: 275px;
+		}
+
+/*------SLIDES-----*/	
+
+.slides {
+	position: relative;
+	width: 700px;
+	height: 200px;
+	margin: 70px 0 0 0;
+	padding: 15px 20px 15px 65px;
+}
+
+	.slides #owl-demo .owl-item img {
+		width: 250px;
+		height: 160px;
+	}
+
+	.slides #owl-demo .owl-item {
+		width: 250px !important;
+		margin-right: 55px;
+	}
+
+	.slides #owl-demo .owl-item:nth-child(3n) {
+		margin-right: 55px;
+	}
+
+	.owl-theme .owl-controls .owl-buttons > .owl-prev {
+		left: -95px;
+	}
+
+	.owl-theme .owl-controls .owl-buttons > .owl-next {
+		right: -50px;
+	}
+
+/* -------------------FOOTER------------------------ */
+
+.footer {
+	padding: 30px 15px;
+}
+
+	.f-content span {
+		font-size: 16px;
+	}
+
+/*-----------FORM----------------*/
+
+.f-form form input {
+	width: 220px;
+}
+
+.f-form form textarea {
+	width: 220px;
+}
+
+/*-----------RECALLS----------------*/
+
+.users-recalls {
+	padding-left: 5%;
+}
+
+	.users-recalls blockquote {
+		width: 250px;
+	}
+
+	.users-recalls p {
+		font-size: 14px;
+		margin-top: 75px;
+		margin-left: 10px;
+	}
+
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+
+	.center {
+		width: 580px;
+		margin: 0 auto;
+	}
+
+/* -------------------HEADER------------------------ */
+
+.hmenu-block > h3 {
+	padding-left: 35%;
+	width: 98%;
+	margin-left: 15px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.hmenu-block ul {
+	width: 100%;
+	display: inline-block;
+	padding-left: 5%;
+}
+
+	.hmenu-block ul li a {
+		margin-left: 10px;
+		font-size: 16px;
+	}
+
+/* -------------------CONTENT------------------------ */
+
+.content {
+	padding: 0 15px;
+	margin: 60px auto 50px;
+}
+
+	.content h1 {
+		font-size: 40px;
+		margin-bottom: 50px;
+		padding-left: 30px;	
+	}
+
+	.mc-desc {
+		width: 100%;
+	}
+
+		.mc-desc p {
+			font-size: 16px;
+			line-height: 18px;
+		}
+
+	.mc-desc-preview {
+		width: 100%;	
+		padding-left: 0;
+		margin-top: 15px;
+	}
+
+		.mc-desc-preview img {
+			width: 100%;
+			height: 250px;
+		}
+
+/*------SLIDES-----*/	
+
+.slides {
+	position: relative;
+	width: 540px;
+	height: 200px;
+	margin: 70px 0 0 5px;
+	padding: 15px 30px 15px 40px;
+}
+
+	.slides #owl-demo .owl-item img {
+		width: 200px;
+		height: 160px;
+	}
+
+	.slides #owl-demo .owl-item {
+		width: 200px !important;
+		margin-right: 30px;
+	}
+
+	.slides #owl-demo .owl-item:first-child {
+		margin-left: 10px;
+	}
+
+	.slides #owl-demo .owl-item:nth-child(3n) {
+		margin-right: 30px;
+	}
+
+	.owl-theme .owl-controls .owl-buttons > .owl-prev {
+		left: -70px;
+	}
+
+	.owl-theme .owl-controls .owl-buttons > .owl-next {
+		right: -60px;
+	}
+
+/* -------------------FOOTER------------------------ */
+
+.footer {
+	padding: 30px 15px;
+}
+
+	.f-content span {
+		font-size: 12px;
+	}
+
+/*-----------FORM----------------*/
+
+.f-form form input {
+	width: 140px;
+	font-size: 12px;
+}
+
+.f-form form textarea {
+	width: 140px;
+	font-size: 12px;
+}
+
+
+/*-----------RECALLS----------------*/
+
+.users-recalls {
+	padding-left: 5%;
+}
+
+	.users-recalls blockquote {
+		font-size: 14px;
+		width: 190px;
+		margin: 0;
+	}
+
+	.users-recalls p {
+		font-size: 12px;
+		margin-top: 77px;
+		margin-left: 10px;
+	}
+
+
+}
+
+@media (min-width: 450px) and (max-width: 599px) {
+
+	.center {
+		width: 450px;
+		margin: 0 auto;
+	}
+
+/* -------------------HEADER------------------------ */
+
+.hmenu-block > h3 {
+	padding-left: 28%;
+	width: 98%;
+	margin-left: 15px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.hmenu-block ul {
+	width: 100%;
+	display: inline-block;
+	padding-left: 2%;
+}
+
+	.hmenu-block ul li a {
+		margin-left: 5px;
+		font-size: 12px;
+	}
+
+/* -------------------CONTENT------------------------ */
+
+.content {
+	padding: 0 15px;
+	margin: 40px auto;
+}
+
+	.content h1 {
+		font-size: 30px;
+		margin-bottom: 50px;
+		padding-left: 5px;	
+	}
+
+	.mc-desc {
+		width: 100%;
+	}
+
+		.mc-desc p {
+			font-size: 16px;
+			line-height: 18px;
+		}
+
+	.mc-desc-preview {
+		width: 100%;	
+		padding-left: 0;
+		margin-top: 15px;
+	}
+
+		.mc-desc-preview img {
+			width: 100%;
+			height: 250px;
+		}
+
+/*------SLIDES-----*/	
+
+.slides {
+	position: relative;
+	width: 400px;
+	height: 180px;
+	margin: 70px 0 0 5px;
+	padding: 15px 30px 15px 30px;
+}
+
+	.slides #owl-demo .owl-item img {
+		width: 140px;
+		height: 140px;
+	}
+
+	.slides #owl-demo .owl-item {
+		width: 140px !important;
+		margin-right: 25px;
+	}
+
+	.slides #owl-demo .owl-item:first-child {
+		margin-left: 10px;
+	}
+
+	.slides #owl-demo .owl-item:nth-child(3n) {
+		margin-right: 25px;
+	}
+
+	.owl-theme .owl-controls .owl-buttons > .owl-prev {
+		left: -60px;
+	}
+
+	.owl-theme .owl-controls .owl-buttons > .owl-next {
+		right: -60px;
+	}
+
+/* -------------------FOOTER------------------------ */
+
+.footer {
+	padding: 30px 15px;
+}
+
+	.f-content span {
+		font-size: 11px;
+	}
+
+/*-----------FORM----------------*/
+
+.labels-list {
+	width: 100px;
+}
+
+.labels-list li {
+	margin-bottom: 11px;
+}
+
+.f-form form label {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.input-list li {
+	position: relative;
+	margin-bottom: 6px;
+}
+
+.f-form form input {
+	padding: 3px;
+	width: 100px;
+	font-size: 10px;
+}
+
+.input-list li::before {
+	font-size: 14px;
+}
+
+.f-form form textarea {
+	padding: 3px;
+	width: 100px;
+	font-size: 10px;
+}
+
+.f-form button {
+	padding: 3px 26px;
+	margin-top: 20px;
+}
+
+
+/*-----------RECALLS----------------*/
+
+.users-recalls {
+	padding-left: 3%;
+}
+
+	.users-recalls blockquote {
+		font-size: 12px;
+		width: 170px;
+		margin: 0;
+	}
+
+	.users-recalls p {
+		font-size: 12px;
+		margin-top: 27px;
+		margin-left: 0;
+	}
+
+
+}
+
+@media (min-width: 320px) and (max-width: 449px) {
+	
+}
+

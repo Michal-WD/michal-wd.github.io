@@ -1,0 +1,863 @@
+@media (min-width: 993px) and (max-width: 1279px) {
+/* ==========================================================================
+   About
+   ========================================================================== */
+
+.about-block {
+	padding-top: 100px;
+}
+
+/* ==========================================================================
+   Clients
+   ========================================================================== */
+
+.clients {
+	padding: 100px 0 0 80px;
+}
+
+.clients-info {
+	padding-left: 0;
+}
+
+.client {
+	padding: 30px 0 20px 15px;
+}
+
+.client blockquote {
+	font-size: 0.9em;
+}
+
+/* ==========================================================================
+   Newsletter
+   ========================================================================== */
+
+.news-form {
+	width: 100%;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.header-menu {
+	width: 100%;
+}
+
+.logo {
+	margin-left: 25px;
+}
+
+.menu {
+	margin-left: 15px;
+}
+
+.menu li a {
+	font-size: 0.8em;
+	padding: 6px 11px;
+	margin-right: 3px;
+}
+
+.order-form {
+	text-align: center;
+}
+
+.input-group {
+	float: none;
+	width: 40%;
+	margin: 0 auto 15px;
+}
+
+.owl-carousel {
+	width: 446px;
+	position: absolute;
+	top: 17px;	
+	left: 100px;
+}
+
+/* ==========================================================================
+   Services
+   ========================================================================== */
+
+.services {
+	margin-top: 400px;
+}
+
+.services .tittle {
+	margin-bottom: 80px;
+}
+
+.service-blocks {
+	width: 100%;
+}
+
+.service {
+	margin-bottom: 20px;
+}
+
+.service-icon {
+	height: 160px;
+}
+
+.service-info p {
+	width: 100%;
+}
+
+/* ==========================================================================
+   About
+   ========================================================================== */
+
+.about-block {
+	padding-top: 40px;
+}
+
+/* ==========================================================================
+   Price
+   ========================================================================== */
+
+.price {
+	padding: 100px 0;
+}
+
+/* ==========================================================================
+   Clients
+   ========================================================================== */
+
+.clients {
+	padding: 100px 0;
+}
+
+.client {
+	width: auto;
+}
+
+/* ==========================================================================
+   Newsletter
+   ========================================================================== */
+
+.newsletter {
+	padding: 100px 0;
+	text-align: center;
+}
+
+.news-form {
+	width: 90%;
+}
+
+.newsletter .input-group {
+	width: 40%;
+}
+
+.newsletter .request-btn {
+	float: none;
+}
+
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.header-menu  {
+	display: none;
+}
+
+.nav {
+	display: block;
+	position: relative;
+}
+
+.nav .logo {
+	margin: 15px 0 15px 50px;
+}
+
+.nav .dropdown {
+	float: right;
+	margin: 20px 15px 0 0;
+}
+
+.nav > li.dropdown.open {
+	position: static;
+}
+
+.nav > li.dropdown.open .dropdown-menu {
+	margin: 0;
+	width: 100%;
+	top: 95%;
+	right: 0;
+	background: #fff;
+	border: none;
+	padding: 0;
+}
+
+.dropdown-menu > li {
+	display: block;
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+	background: #fff;
+}
+
+.dropdown > ul > li > a {
+	padding: 10px 20px;
+}
+
+.dropdown > ul > li > a:hover {
+	background: #dcdcdc;
+} 
+
+.order {
+	height: 800px;
+}
+
+.order-form {
+	text-align: center;
+}
+
+.input-group {
+	float: none;
+	width: 50%;
+	margin: 0 auto 15px;
+}
+
+.laptop img {
+	width: 520px;
+}
+
+.owl-carousel {
+	width: 360px;
+	position: absolute;
+	top: 12px;	
+	left: 80px;
+}
+
+#owl-demo .item img {
+	height: 230px;
+}
+
+.owl-theme .owl-controls .owl-page span {
+	margin-top: 60px;
+}
+
+/* ==========================================================================
+   Services
+   ========================================================================== */
+
+.services {
+	margin-top: 180px;
+}
+
+.services .tittle {
+	margin-bottom: 80px;
+}
+
+.service-blocks {
+	width: 100%;
+}
+
+.service {
+	float: left;
+	margin-bottom: 10px;
+}
+
+.service-icon {
+	height: 120px;
+	text-align: center;
+}
+
+.service-icon .fa-clock-o {
+	padding: 0;
+}
+
+.service-info p {
+	width: 100%;
+}
+
+/* ==========================================================================
+   About
+   ========================================================================== */
+
+.about {
+	float: left;
+}
+
+.about-image {
+	display: none;
+}
+
+.about-block {
+	height: 400px;
+	text-align: center;
+	margin-top: 50px;
+	padding: 60px 50px 0;
+}
+
+.about-block p {
+	width: 100%;
+}
+
+/* ==========================================================================
+   Price
+   ========================================================================== */
+
+.price {
+	padding: 100px 0;
+}
+
+.prices {
+	margin: 80px 0 80px 10%;
+}
+
+/* ==========================================================================
+   How it works
+   ========================================================================== */
+
+.how-it-works {
+	padding: 80px 0;
+}
+
+/* ==========================================================================
+   Clients
+   ========================================================================== */
+
+.clients {
+	padding: 80px 0;
+}
+
+.client {
+	width: auto;
+}
+
+/* ==========================================================================
+   Newsletter
+   ========================================================================== */
+
+.newsletter {
+	padding: 80px 0;
+	text-align: center;
+}
+
+.newsletter .price-text {
+	margin-bottom: 40px;
+}
+
+.news-form {
+	width: 90%;
+}
+
+.newsletter .input-group {
+	width: 40%;
+}
+
+.newsletter .request-btn {
+	float: none;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.footer ul li {
+	display: inline;
+	text-transform: uppercase;
+	margin-right: 15px;
+	font-size: 0.8em;
+}
+
+}
+
+@media (min-width: 450px) and (max-width: 599px) {
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.header-menu  {
+	display: none;
+}
+
+.nav {
+	display: block;
+	position: relative;
+}
+
+.nav .logo {
+	margin: 15px 0 15px 50px;
+}
+
+.nav .dropdown {
+	float: right;
+	margin: 20px 15px 0 0;
+}
+
+.nav > li.dropdown.open {
+	position: static;
+}
+
+.nav > li.dropdown.open .dropdown-menu {
+	margin: 0;
+	width: 100%;
+	top: 95%;
+	right: 0;
+	background: #fff;
+	border: none;
+	padding: 0;
+}
+
+.dropdown-menu > li {
+	display: block;
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+	background: #fff;
+}
+
+.dropdown > ul > li > a {
+	padding: 10px 20px;
+}
+
+.dropdown > ul > li > a:hover {
+	background: #dcdcdc;
+} 
+
+.order {
+	height: 800px;
+}
+
+.order-form {
+	text-align: center;
+}
+
+.input-group {
+	float: none;
+	width: 50%;
+	margin: 0 auto 15px;
+}
+
+.laptop img {
+	width: 450px;
+}
+
+.owl-carousel {
+	width: 310px;
+	position: absolute;
+	top: 12px;	
+	left: 70px;
+}
+
+#owl-demo .item img {
+	height: 190px;
+}
+
+.owl-theme .owl-controls .owl-page span {
+	margin-top: 60px;
+}
+
+/* ==========================================================================
+   Services
+   ========================================================================== */
+
+.services {
+	margin-top: 120px;
+}
+
+.services .tittle {
+	margin-bottom: 80px;
+}
+
+.service-blocks {
+	width: 100%;
+}
+
+.service {
+	float: left;
+	margin-bottom: 10px;
+}
+
+.service-icon {
+	height: 120px;
+	text-align: center;
+}
+
+.service-icon .fa-clock-o {
+	padding: 0;
+}
+
+.service-info p {
+	width: 100%;
+}
+
+/* ==========================================================================
+   About
+   ========================================================================== */
+
+.about {
+	float: left;
+}
+
+.about-image {
+	display: none;
+}
+
+.about-block {
+	height: 400px;
+	text-align: center;
+	margin-top: 50px;
+	padding: 50px 50px 0;
+}
+
+.about-block p {
+	width: 100%;
+}
+
+/* ==========================================================================
+   Price
+   ========================================================================== */
+
+.price {
+	padding: 60px 0;
+}
+
+.prices {
+	margin: 80px 0 80px 10%;
+}
+
+.start a {
+	font-size: 0.8em;
+}
+
+/* ==========================================================================
+   How it works
+   ========================================================================== */
+
+.how-it-works {
+	padding: 60px 0;
+}
+
+/* ==========================================================================
+   Clients
+   ========================================================================== */
+
+.clients {
+	padding: 60px 0;
+}
+
+.client {
+	width: auto;
+}
+
+.avatar {
+	height: 180px;
+}
+
+.client p {
+	margin-left: 0;
+}
+
+/* ==========================================================================
+   Newsletter
+   ========================================================================== */
+
+.newsletter {
+	padding: 60px 0;
+	text-align: center;
+}
+
+.newsletter .price-text {
+	margin-bottom: 40px;
+}
+
+.news-form {
+	width: 90%;
+}
+
+.newsletter .input-group {
+	width: 40%;
+}
+
+.newsletter .request-btn {
+	float: none;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.footer ul li {
+	display: inline;
+	text-transform: uppercase;
+	margin-right: 15px;
+	font-size: 0.8em;
+}
+
+}
+
+@media (min-width: 320px) and (max-width: 449px) {
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.header-menu  {
+	display: none;
+}
+
+.nav {
+	display: block;
+	position: relative;
+}
+
+.nav .logo {
+	margin: 15px 0 15px 50px;
+}
+
+.nav .dropdown {
+	float: right;
+	margin: 20px 15px 0 0;
+}
+
+.nav > li.dropdown.open {
+	position: static;
+}
+
+.nav > li.dropdown.open .dropdown-menu {
+	margin: 0;
+	width: 100%;
+	top: 95%;
+	right: 0;
+	background: #fff;
+	border: none;
+	padding: 0;
+}
+
+.dropdown-menu > li {
+	display: block;
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+	background: #fff;
+}
+
+.dropdown > ul > li > a {
+	padding: 10px 20px;
+}
+
+.dropdown > ul > li > a:hover {
+	background: #dcdcdc;
+} 
+
+.order {
+	height: 750px;
+}
+
+.order-form {
+	text-align: center;
+}
+
+.input-group {
+	float: none;
+	width: 50%;
+	margin: 0 auto 15px;
+}
+
+.input-group input {
+	font-size: 0.8em;
+}
+
+.laptop img {
+	width: 300px;
+}
+
+.owl-carousel {
+	width: 210px;
+	position: absolute;
+	top: 8px;	
+	left: 45px;
+}
+
+#owl-demo .item img {
+	height: 130px;
+}
+
+.owl-theme .owl-controls .owl-page span {
+	margin-top: 40px;
+}
+
+/* ==========================================================================
+   Services
+   ========================================================================== */
+
+.services {
+	margin-top: 120px;
+}
+
+.services .tittle {
+	margin-bottom: 80px;
+}
+
+.service-blocks {
+	width: 100%;
+}
+
+.service {
+	float: left;
+	margin-bottom: 10px;
+}
+
+.service-icon {
+	margin-right: 20px;
+	height: 200px;
+	text-align: center;
+}
+
+.service-icon .fa-clock-o {
+	padding: 0;
+}
+
+.service-info p {
+	width: 100%;
+}
+
+/* ==========================================================================
+   About
+   ========================================================================== */
+
+.about {
+	float: left;
+	font-size: 0.9em;
+}
+
+.about-image {
+	display: none;
+}
+
+.about-block {
+	height: 400px;
+	text-align: center;
+	margin-top: 50px;
+	padding: 25px 50px 0;
+}
+
+.about-block p {
+	width: 100%;
+}
+
+/* ==========================================================================
+   Price
+   ========================================================================== */
+
+.price {
+	padding: 50px 0;
+}
+
+.prices {
+	margin: 50px auto;
+}
+
+.plan {
+	margin: 0 0 10px 40px;
+	display: block;
+	width: 80%;
+}
+
+.plan:nth-child(2) {
+	margin-top: 0;
+}
+
+.start a {
+	font-size: 0.8em;
+}
+
+/* ==========================================================================
+   How it works
+   ========================================================================== */
+
+.how-it-works {
+	padding: 50px 0;
+}
+
+.step {
+	width: 100%;
+}
+
+/* ==========================================================================
+   Clients
+   ========================================================================== */
+
+.clients {
+	padding: 50px 0;
+}
+
+.client {
+	width: auto;
+	padding: 30px 5px 30px;
+}
+
+.avatar {
+	width: 100%;
+	text-align: center;
+	height: 150px;
+}
+
+.client blockquote {
+	font-size: 1em;
+	margin-left: 0;
+}
+
+.client p {
+	margin-left: 0;
+}
+
+/* ==========================================================================
+   Newsletter
+   ========================================================================== */
+
+.newsletter {
+	padding: 50px 0;
+	text-align: center;
+	background: url('../img/footer-bg.gif') no-repeat 40% 120%;
+}
+
+.newsletter .price-text {
+	margin-bottom: 30px;
+}
+
+.news-form {
+	width: 100%;
+}
+
+.newsletter .input-group {
+	width: 50%;
+}
+
+.newsletter .request-btn {
+	float: none;
+}
+
+.data-text {
+	margin-top: 100px;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.footer ul {
+	margin: 0 auto;
+	width: 90%;
+	margin-bottom: 10px;
+}
+
+.footer ul li {
+	display: inline;
+	text-transform: uppercase;
+	margin-right: 15px;
+	font-size: 0.8em;
+}
+
+}
