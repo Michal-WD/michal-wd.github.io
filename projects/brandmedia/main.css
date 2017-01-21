@@ -1726,7 +1726,7 @@ form,fieldset,input,textarea,p,blockquote,th,td {
 	box-shadow: 2px 2px 1px #000 inset;
 }
 
-.sent_btn button {
+.sent_btn a {
 	float: left;
 	padding: 5px 15px;
 	background-color: #c05942;
