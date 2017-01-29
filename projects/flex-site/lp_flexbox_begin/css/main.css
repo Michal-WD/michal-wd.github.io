@@ -1,0 +1,426 @@
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+body {
+  background: #ddd;
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.wrap-site {
+  background: #fff;
+  max-width: 1640px;
+  min-width: 320px;
+  padding-top: 60px;
+  margin: 0 auto;
+  box-shadow: 0 2px 5px #555;
+  -webkit-box-shadow: 0 2px 5px #555;
+  -moz-box-shadow: 0 2px 5px #555;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  outline: 0;
+}
+a:active, a:focus, a:hover {
+  color: #333;
+  text-decoration: none;
+  outline: 0;
+}
+
+.site-header {
+  background: rgba(255, 255, 255, 0.9);
+  margin: 0;
+  padding: 0;
+  max-width: 1640px;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+}
+
+.top-menu ul {
+  margin: 0;
+  padding: 0;
+}
+.top-menu ul li {
+  display: inline-block;
+}
+.top-menu ul li a {
+  display: inline-block;
+  margin: 0 10px;
+  text-transform: uppercase;
+  color: #4d8c6c;
+  transition: all 0.35s ease 0;
+  -webkit-transition: all 0.35s ease 0;
+  -o-transition: all 0.35s ease 0;
+  -moz-transition: all 0.35s ease 0;
+}
+.top-menu ul li a:hover {
+  color: #2a4c3b;
+}
+
+.top-phone {
+  font-size: 16.5px;
+}
+
+.hidden-menu {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 101;
+  top: 0;
+  left: 0;
+}
+.hidden-menu ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch;
+}
+.hidden-menu ul li a {
+  display: inline-block;
+  margin: 20px auto;
+  color: #fff;
+}
+
+.btn-menu {
+  display: none;
+  text-align: center;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  background-color: #fff;
+  color: #4d8c6c;
+  cursor: pointer;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 102;
+  font-size: 30px;
+  transition: all 0.35s ease 0;
+  -webkit-transition: all 0.35s ease 0;
+  -o-transition: all 0.35s ease 0;
+  -moz-transition: all 0.35s ease 0;
+}
+.btn-menu:hover {
+  color: #2a4c3b;
+}
+
+.line {
+  width: 95%;
+  background: #ddd;
+  height: 1px;
+  margin: auto;
+}
+
+.main-tittle {
+  font-size: 30px;
+  letter-spacing: 3px;
+  margin: 0;
+  padding: 10px 20px;
+}
+
+.main-img {
+  height: 450px;
+  background: url("../img/bg/bg_main.jpg") no-repeat scroll center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  box-shadow: 0 2px 5px #555;
+  -webkit-box-shadow: 0 2px 5px #555;
+  -moz-box-shadow: 0 2px 5px #555;
+}
+
+#owl-demo .item {
+  margin: 3px;
+}
+
+#owl-demo .item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 2px 5px #555;
+  -webkit-box-shadow: 0 2px 5px #555;
+  -moz-box-shadow: 0 2px 5px #555;
+}
+
+.section-tittle {
+  margin: 10px 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 19.5px;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.history-section,
+.routes-section,
+.bio-section,
+.nature-section,
+.contacts-section {
+  padding: 50px 0;
+}
+
+.nature-desc {
+  padding: 10px 0 0;
+}
+
+.wrap-bio {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.bio-item {
+  text-align: center;
+  width: 280px;
+  margin: 20px;
+}
+.bio-item img {
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 2px 5px #555;
+  -webkit-box-shadow: 0 2px 5px #555;
+  -moz-box-shadow: 0 2px 5px #555;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+.item-tittle {
+  color: #4d8c6c;
+  text-transform: uppercase;
+  margin: 5px auto;
+}
+
+.history-tabs {
+  text-align: center;
+}
+
+.r-tabs-anchor {
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+  padding: 5px 10px;
+  color: #4d8c6c;
+  border: 1px solid #4d8c6c;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  transition: all 0.35s ease 0;
+  -webkit-transition: all 0.35s ease 0;
+  -o-transition: all 0.35s ease 0;
+  -moz-transition: all 0.35s ease 0;
+}
+.r-tabs-anchor:hover {
+  color: #2a4c3b;
+  border: 1px solid #2a4c3b;
+}
+
+.history-item-img img {
+  display: block;
+  margin: auto;
+  max-width: 600px;
+  max-height: 400px;
+  width: 100%;
+  box-shadow: 0 2px 5px #555;
+  -webkit-box-shadow: 0 2px 5px #555;
+  -moz-box-shadow: 0 2px 5px #555;
+}
+
+.history-item-desc {
+  padding: 10px 0 0;
+}
+
+.routes-item {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #4d8c6c;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: stretch;
+}
+
+.routes-item-img img {
+  display: block;
+  margin: auto;
+  width: 300px;
+  height: 200px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  box-shadow: 0 2px 5px #555;
+  -webkit-box-shadow: 0 2px 5px #555;
+  -moz-box-shadow: 0 2px 5px #555;
+}
+
+.routes-item-desc {
+  padding: 0 15px;
+}
+.routes-item-desc p {
+  font-style: italic;
+  font-size: 13.5px;
+}
+
+.routes-item-line {
+  background: #4d8c6c;
+  height: 15px;
+  margin-top: 10px;
+}
+
+.wrap-contacts {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.wrap-map {
+  height: 450px;
+  box-shadow: 0 2px 5px #555;
+  -webkit-box-shadow: 0 2px 5px #555;
+  -moz-box-shadow: 0 2px 5px #555;
+  flex: 0 1 49%;
+}
+
+.wrap-form {
+  flex: 0 1 49%;
+}
+
+.form-item {
+  margin: 10px 0;
+}
+.form-item label,
+.form-item input,
+.form-item textarea {
+  display: block;
+  width: 100%;
+  font-size: 15.75px;
+}
+
+.submit {
+  background-color: #4d8c6c;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16.5px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  transition: all 0.35s ease 0;
+  -webkit-transition: all 0.35s ease 0;
+  -o-transition: all 0.35s ease 0;
+  -moz-transition: all 0.35s ease 0;
+}
+.submit:hover {
+  color: #fff;
+  background-color: #2a4c3b;
+  border: 1px solid #2a4c3b;
+  cursor: pointer;
+}
+
+.site-footer {
+  background-color: #4d8c6c;
+  color: #fff;
+  padding: 30px 15px;
+}
+.site-footer .copyright {
+  font-style: italic;
+  font-size: 12px;
+}

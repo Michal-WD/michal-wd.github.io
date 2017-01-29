@@ -1,0 +1,382 @@
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+
+ @import "compass/reset";
+
+ $main-font: "Open Sans", sans-serif;
+ $main-color: #333;
+ $accent-color: #4d8c6c;
+ $hover-color: #2a4c3b;
+ $font-size: 15px;
+
+ @mixin box-shadow($x , $y, $blur, $color) {
+ 	box-shadow: $x $y $blur $color;
+ 	-webkit-box-shadow: $x $y $blur $color;
+ 	-moz-box-shadow: $x $y $blur $color;
+ }
+
+@mixin transition($property, $duration, $timing, $delay) {
+	transition: $property $duration $timing $delay;
+	-webkit-transition: $property $duration $timing $delay;
+	-o-transition: $property $duration $timing $delay;
+	-moz-transition: $property $duration $timing $delay;
+}
+
+@mixin border-radius($radius) {
+	border-radius: $radius;
+	-moz-border-radius: $radius;
+	-ms-border-radius: $radius;
+	-webkit-border-radius: $radius;
+}
+
+ body {
+ 	background: #ddd;
+ 	font-family: $main-font;
+ 	color: $main-color;
+ 	margin: 0;
+ 	padding: 0;
+ 	line-height: 1.5;
+ }
+
+// HEADER
+
+.wrap-site {
+	background: #fff;
+	max-width: 1640px;
+	min-width: 320px;
+	padding-top: 60px;
+	margin: 0 auto;
+	@include box-shadow(0, 2px, 5px, #555);
+}
+
+a {
+	color: $main-color;
+	text-decoration: none;
+	outline: 0;
+	&:active,
+	&:focus,
+	&:hover {
+		color: $main-color;
+		text-decoration: none;
+		outline: 0;
+	}
+}
+
+.site-header {
+	background: rgba(255,255,255,0.9);
+	margin: 0;
+	padding: 0;	
+	max-width: 1640px;
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+}
+
+.top-menu {
+	ul {
+		margin: 0;
+		padding: 0;
+		li {
+			display: inline-block;
+			a {
+				display: inline-block;
+				margin: 0 10px;
+				text-transform: uppercase;
+				color: $accent-color;
+				@include transition(all, 0.35s, ease, 0);
+				&:hover {
+					color: $hover-color;
+				}
+			}
+		}
+	}
+}
+
+.top-phone {
+	font-size: $font-size * 1.1;
+}
+
+.hidden-menu {
+	display: none;
+	background-color: rgba(0,0,0,.8);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 101;
+	top: 0;
+	left: 0;
+	ul {
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		height: 100%;
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: center;
+		align-items: stretch;
+		align-content: stretch;
+		li {
+			a {
+				display: inline-block;
+				margin: 20px auto;
+				color: #fff;
+			}
+		}
+	}
+}
+
+.btn-menu {
+	display: none;
+	text-align: center;
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
+	background-color: #fff;
+	color: $accent-color;
+	cursor: pointer;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 102;
+	font-size: $font-size * 2;
+	@include transition(all, 0.35s, ease, 0);
+		&:hover {
+			color: $hover-color;
+		}
+}
+
+// CONTENT
+
+.line {
+	width: 95%;
+	background: #ddd;
+	height: 1px;
+	margin: auto;
+}
+
+.main-tittle {
+	font-size: $font-size * 2;
+	letter-spacing: 3px;
+	margin: 0;
+	padding: 10px 20px;
+}
+
+.main-img {
+	height: 450px;
+	background: url('../img/bg/bg_main.jpg') no-repeat scroll center center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	@include box-shadow(0, 2px, 5px, #555);
+}
+
+// SLIDER
+
+#owl-demo .item {
+	margin: 3px;
+}
+
+#owl-demo .item img {
+	display: block;
+	width: 100%;
+	height: auto;
+	@include box-shadow(0, 2px, 5px, #555);
+}
+
+.section-tittle {
+	margin: 10px 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: $font-size * 1.3;
+}
+
+.container {
+	width: 95%;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.history-section,
+.routes-section,
+.bio-section,
+.nature-section,
+.contacts-section {
+	padding: 50px 0;
+}
+
+.nature-desc {
+	padding: 10px 0 0;
+}
+
+.wrap-bio {
+	max-width: 960px;
+	margin: 0 auto;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around; 
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.bio-item {
+	text-align: center;
+	width: 280px;
+	margin: 20px;
+	img {
+		width: 200px;
+		height: 200px;
+		@include box-shadow(0, 2px, 5px, #555);
+		@include border-radius(50%);
+	}
+}
+
+.item-tittle {
+	color: $accent-color;
+	text-transform: uppercase;
+	margin: 5px auto;
+}
+
+// HISTORY TABS
+
+.history-tabs {
+	text-align: center;
+}
+
+.r-tabs-anchor {
+	display: inline-block;
+	text-align: center;
+	margin: 10px;
+	padding: 5px 10px;
+	color: $accent-color;
+	border: 1px solid $accent-color;
+	@include border-radius(3px);
+	@include transition(all, 0.35s, ease, 0);
+		&:hover {
+			color: $hover-color;
+			border: 1px solid $hover-color;
+		}
+}
+
+.history-item-img {
+	img {
+		display: block;
+		margin: auto;
+		max-width: 600px;
+		max-height: 400px;
+		width: 100%;
+		@include box-shadow(0, 2px, 5px, #555);
+	}
+}
+
+.history-item-desc {
+	padding: 10px 0 0;
+}
+
+// ROUTES
+
+.routes-item {
+	margin: 20px 0;
+	padding: 15px;
+	border: 1px solid $accent-color;
+	@include border-radius(5px);
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+}
+
+.routes-item-img {
+	img {
+		display: block;
+		margin: auto;
+		width: 300px;
+		height: 200px;
+		@include border-radius(3px);
+		@include box-shadow(0, 2px, 5px, #555);
+	}
+}
+
+.routes-item-desc {
+	padding: 0 15px;
+	p {
+		font-style: italic;
+		font-size: $font-size * 0.9;
+	}
+}
+
+.routes-item-line {
+	background: $accent-color;
+	height: 15px;
+	margin-top: 10px;
+}
+
+// CONTACTS
+
+.wrap-contacts {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.wrap-map {
+	height: 450px;
+	@include box-shadow(0, 2px, 5px, #555);
+	flex: 0 1 49%;
+}
+
+.wrap-form {
+	flex: 0 1 49%;
+}
+
+.form-item {
+	margin: 10px 0;
+	label,
+	input,
+	textarea {
+		display: block;
+		width: 100%;
+		font-size: $font-size * 1.05;
+	}
+}
+
+.submit {
+	background-color: $accent-color;
+	color: #fff;
+	border: none;
+	padding: 10px 15px;
+	font-size: $font-size * 1.1;
+	@include border-radius(3px);
+	@include transition(all, 0.35s, ease, 0);
+		&:hover {
+			color: #fff;
+			background-color: $hover-color;
+			border: 1px solid $hover-color;
+			cursor: pointer;
+		}
+}
+
+// FOOTER
+
+.site-footer {
+	background-color: $accent-color;
+	color: #fff;
+	padding: 30px 15px;
+	.copyright {
+		font-style: italic;
+		font-size: $font-size * 0.8;
+	}
+}
