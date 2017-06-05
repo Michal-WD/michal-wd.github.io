@@ -138,8 +138,8 @@ a, a:hover {
 
 .greeting {
 	text-align: center;
-	margin: 100px 0 40px;
-	height: 500px;
+	margin: 10% 0 5%;
+	height: 95vh;
 }
 
 	.greeting h1 {
@@ -284,7 +284,7 @@ a, a:hover {
 		}
 
 			.skills > div > .js-scale > .js-filling {
-				height: 100px;
+				height: 80px;
 			}
 
 		.skills > div > .ps-scale {
